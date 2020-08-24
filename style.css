@@ -1,0 +1,107 @@
+body {
+  font-family: Gill Sans, sans-serif;
+}
+
+h1 {
+  color: #09737e;
+  text-align: center;
+  font-size: 40px;
+  padding: 0 0 5px;
+}
+
+h2 {
+  color: #09737e;
+  text-align: center;
+  border: 1px solid #09737e;
+  border-radius: 5px;
+}
+
+strong {
+  color: #09737e;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 85%;
+  border-radius: 10px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 30px;
+  overflow: scroll;
+  height: 200px;
+  width: auto;
+}
+
+.backgroundImage {
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/000/783/original/pannenkoek.png?1588953789);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 150px 60px;
+  max-width: 550px;
+}
+
+.textPannenkoek {
+  font-weight: bold;
+  color: #09737e;
+}
+
+.learnMore {
+  text-decoration: none;
+  font-size: 18px;
+  color: #09737e;
+}
+
+.learnMore:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.line {
+  border: 0.5px solid #09737e;
+}
+
+.buttonCreate {
+  display: block;
+  margin: 20px auto;
+  font-size: 30px;
+  padding: 15px;
+  border-radius: 10px;
+  color: #111;
+  transition: all 200ms ease-in-out;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  background-image: linear-gradient(
+    to right,
+    #09737e 0%,
+    #0fa0aa 20%,
+    #11b7c6 40%,
+    #15e2ed 70%,
+    #b8f9f9 80%,
+    #efedccc6 90%
+  );
+}
+
+.buttonCreate:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+}
+
+.footerLink {
+  text-decoration: none;
+  color: #09737e;
+}
+
+.footerLink:hover {
+  text-decoration: underline;
+}
